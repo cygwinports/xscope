@@ -8,7 +8,7 @@ Runtime requirements:
 Build requirements:
 (besides corresponding devel packages)
   autoconf2.5-2.63-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10.1-2
   binutils-20080624-2
   cygport-0.4.2-1
   gawk-3.1.6-1
@@ -17,7 +17,7 @@ Build requirements:
   pkg-config-0.23a-2
   sed-4.1.5-2
   xorg-util-macros-1.1.6-1
-  xtrans-1.2.2-1
+  xtrans-1.2.2-3
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -52,6 +52,10 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.1-2 -----
+Rebuilt with xtrans 1.2.2-3 to silence messages about /tmp/.X11-unix 
+creation and ownership.
 
 ----- version 1.1-1 -----
 Initial release for Cygwin.
