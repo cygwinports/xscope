@@ -1,4 +1,4 @@
 category: X11
-requires: cygwin
+requires: libgcc1
 sdesc: "X.Org X window protocol viewer"
 ldesc: "X.Org X window protocol viewer"
