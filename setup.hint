@@ -1,4 +1,4 @@
 category: X11
-requires: libgcc1
+requires:
 sdesc: "X.Org X window connection monitor"
 ldesc: "X.Org X window connection monitor"
