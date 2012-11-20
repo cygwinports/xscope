@@ -1,0 +1,12 @@
+inherit xorg
+
+NAME="xscope"
+VERSION=1.4
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X.Org X protocol viewer"
+DESCRIPTION="Xscope sits in-between an X11 client and an X11 server and prints
+the contents of each request, reply, error, or event that is communicated
+between them. Xscope can decode the core X11 protocol and several extensions,
+including BIG-REQUESTS, GLX, MIT-SHM, RANDR, and RENDER. This information can
+be useful in debugging and performance tuning of X11 servers and clients."
